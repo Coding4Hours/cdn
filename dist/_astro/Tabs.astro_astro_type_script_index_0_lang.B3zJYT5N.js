@@ -1,0 +1,1 @@
+import{n as t}from"./lethal.DYAN9FjL.js";import"./index.gJcamd8L.js";const n=document.getElementById("new-tab-btn");n?.addEventListener("click",(()=>t()));

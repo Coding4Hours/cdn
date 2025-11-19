@@ -1,0 +1,1 @@
+import{k as c}from"./index.gJcamd8L.js";const e=new c,s=async(t,n)=>{const s="string"==typeof t?t:t instanceof URL?t.toString():t.url;return e.fetch(s,n)};export{s as f};
