@@ -1,3 +1,5 @@
-- blue joker is overpowered
-- same with asbract joker
-- maybe odd todd?
+- blue joker 
+- asbract joker
+- golden joker
+- half joker
+- card sharp
