@@ -2,4 +2,4 @@
 - asbract joker
 - golden joker
 - half joker
-- card sharp
+- card sharp is a cheat code
