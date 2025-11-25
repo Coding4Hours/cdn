@@ -1,0 +1,3 @@
+- blue joker is overpowered
+- same with asbract joker
+- maybe odd todd?
