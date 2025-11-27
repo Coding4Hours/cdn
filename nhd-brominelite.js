@@ -1,25 +1,10 @@
-  /*
-  README!!!!
- mmmmmm    mmmmmmmm     mm     mmmmm     mmm  mmm  mmmmmmmm     mm        mm        mm        mm        mm        mm    
- ##""""##  ##""""""    ####    ##"""##   ###  ###  ##""""""     ##        ##        ##        ##        ##        ##    
- ##    ##  ##          ####    ##    ##  ########  ##           ##        ##        ##        ##        ##        ##    
- #######   #######    ##  ##   ##    ##  ## ## ##  #######      ##        ##        ##        ##        ##        ##    
- ##  "##m  ##         ######   ##    ##  ## "" ##  ##           ""        ""        ""        ""        ""        ""    
- ##    ##  ##mmmmmm  m##  ##m  ##mmm##   ##    ##  ##mmmmmm     mm        mm        mm        mm        mm        mm    
- ""    """ """"""""  ""    ""  """""     ""    ""  """"""""     ""        ""        ""        ""        ""        ""    
-
-                                                                                                                                                                                                                                              
-replace file with the file you want all_i_one.html, games.html, or proxy.html
-*/
-
-  const file = "games.html"
 
 
   document.addEventListener("keydown", function(event) {
       if (event.key === "r") {
           document.open();
   try {
-      fetch(`https://cdn.jsdelivr.net/gh/Bromine-labs/BromineLite@main/${file}?t=` + Date.now())
+      fetch(`https://cdn.jsdelivr.net/gh/Bromine-labs/BromineLite@main/games.html?t=` + Date.now())
           .then(response => response.text())
           .then(html => {
               document.write(html);
@@ -40,3 +25,5 @@ replace file with the file you want all_i_one.html, games.html, or proxy.html
         document.close();
       }
   });
+
+
