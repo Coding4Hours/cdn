@@ -2,27 +2,26 @@
 
   document.addEventListener("keydown", function(event) {
       if (event.key === "r") {
-          document.open();
-  try {
-      fetch(`https://cdn.jsdelivr.net/gh/Bromine-labs/BromineLite@main/games.html?t=` + Date.now())
+
+      try {
+        fetch(`https://cdn.jsdelivr.net/gh/Bromine-labs/BromineLite@main/games.html?t=`+Date.now())
           .then(response => response.text())
           .then(html => {
-              document.write(html);
+                document.documentElement.innerHTML = html;
 
-              document.querySelectorAll('script').forEach(oldScript => {
-                  const newScript = document.createElement('script');
-                  if (oldScript.src) {
-                      newScript.src = oldScript.src;
-                  } else {
-                      newScript.textContent = oldScript.textContent;
-                  }
-                  document.body.appendChild(newScript);
-              });
+                document.documentElement.querySelectorAll('script').forEach(oldScript => {
+                    const newScript = document.createElement('script');
+                    if (oldScript.src) {
+                        newScript.src = oldScript.src;
+                    } else {
+                        newScript.textContent = oldScript.textContent;
+                    }
+                    document.body.appendChild(newScript);
+                });
           });
-  } catch (error) {
-      console.error('error:', error);
-  }
-        document.close();
+      } catch (error) {
+        console.error('error:', error);
+      }
       }
   });
 
