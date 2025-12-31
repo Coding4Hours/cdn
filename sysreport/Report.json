@@ -1,0 +1,387 @@
+{
+    "Motherboard": {
+        "Name": "LENOVO 20BFS1V100",
+        "Chipset": "QM87",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "GMET69WW (2.17 )",
+        "Release Date": "01/12/2015",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled",
+        "Above 4G Decoding": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i5-4300M",
+        "Codename": "Haswell",
+        "Core Count": "04",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Intel Corporation 4th Gen Core Processor Integrated Graphics Controller": {
+            "Manufacturer": "Intel",
+            "Codename": "Haswell",
+            "Device Type": "Integrated GPU",
+            "Bus Type": "PCI",
+            "Device ID": "8086-0416",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.VID_",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "CMN15C3": {
+            "Connector Type": "eDP",
+            "Resolution": "1920x1080",
+            "Connected GPU": "Intel Corporation 4th Gen Core Processor Integrated Graphics Controller"
+        }
+    },
+    "Network": {
+        "Intel Corporation Wireless 7260": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-08B2",
+            "Subsystem ID": "C2708086"
+        },
+        "Intel Corporation Ethernet Connection I217-LM": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-153A",
+            "Subsystem ID": "221017AA"
+        }
+    },
+    "Sound": {
+        "Realtek ALC3232": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0292",
+            "Subsystem ID": "17AA2210",
+            "Controller Device ID": "8086-8C20",
+            "PCI Path": "PciRoot(0x0)/Pci(0x3,0x0)",
+            "ACPI Path": "\\_SB.PCI0.B0D3",
+            "Audio Endpoints": [
+                "HDMI 0",
+                "HDMI 1",
+                "HDMI 2"
+            ]
+        },
+        "Intel Haswell HDMI": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-2807",
+            "Subsystem ID": "80860101",
+            "Controller Device ID": "8086-0C0C"
+        },
+        "Intel Corp. Bluetooth wireless interface": {
+            "Bus Type": "USB",
+            "Device ID": "8087-07DC"
+        }
+    },
+    "USB Controllers": {
+        "Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #2": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C2D",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1a,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC2"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C26",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC1"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C31",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHCI"
+        }
+    },
+    "Input": {
+        "ThinkPad Extra Buttons": {
+            "Bus Type": "ACPI",
+            "Device ID": "17AA-5054",
+            "Device Type": "Keyboard"
+        },
+        "Synaptics tm2964-001": {
+            "Bus Type": "USB",
+            "Device": "SYNAPTIC"
+        },
+        "TPPS/2 IBM TrackPoint": {
+            "Bus Type": "ACPI",
+            "Device ID": "0002-000A",
+            "Device Type": "PS/2"
+        },
+        "AT Translated Set 2 keyboard": {
+            "Bus Type": "ACPI",
+            "Device ID": "0001-0001",
+            "Device Type": "PS/2"
+        },
+        "Video Bus": {
+            "Bus Type": "ACPI",
+            "Device": "VIDEOBUS",
+            "Device Type": "Keyboard"
+        }
+    },
+    "Storage Controllers": {
+        "Intel Corporation 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C03",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x2)",
+            "ACPI Path": "\\_SB.PCI0.SAT1",
+            "Disk Drives": [
+                "HGST HTS725050A7",
+                "DVD-RW DU8A5SH"
+            ]
+        }
+    },
+    "Biometric": {
+        "Validity Sensors, Inc. VFS 5011 fingerprint sensor": {
+            "Bus Type": "USB",
+            "Device ID": "138A-0017"
+        }
+    },
+    "Bluetooth": {
+        "Intel Corp. Bluetooth wireless interface": {
+            "Bus Type": "USB",
+            "Device ID": "8087-07DC"
+        }
+    },
+    "System Devices": {
+        "PNP0C14": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMI1"
+        },
+        "alarmtimer": {
+            "Bus Type": "PLATFORM",
+            "Device": "alarmtimer"
+        },
+        "reg-dummy": {
+            "Bus Type": "PLATFORM",
+            "Device": "reg-dummy"
+        },
+        "rtsx_pci_sdmmc": {
+            "Bus Type": "PLATFORM",
+            "Device": "rtsx_pci_sdmmc"
+        },
+        "PNP0C0D": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.LID_"
+        },
+        "PNP0C09": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.LPC_.EC__"
+        },
+        "PNP0C0A": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0A",
+            "ACPI Path": "\\_SB.PCI0.LPC_.EC__.BAT0"
+        },
+        "thinkpad_hwmon": {
+            "Bus Type": "PLATFORM",
+            "Device": "thinkpad_hwmon"
+        },
+        "kgdboc": {
+            "Bus Type": "PLATFORM",
+            "Device": "kgdboc"
+        },
+        "ACPI0003": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI0003",
+            "ACPI Path": "\\_SB.PCI0.LPC_.EC__.AC__"
+        },
+        "PCCT": {
+            "Bus Type": "PLATFORM",
+            "Device": "PCCT"
+        },
+        "acpi-cpufreq": {
+            "Bus Type": "PLATFORM",
+            "Device": "acpi-cpufreq"
+        },
+        "Collaborative Processor Performance Control (CPPC)": {
+            "Bus Type": "ACPI",
+            "Device": "INT340F",
+            "ACPI Path": "\\_SB.PCCD"
+        },
+        "microcode": {
+            "Bus Type": "PLATFORM",
+            "Device": "microcode"
+        },
+        "LEN0068": {
+            "Bus Type": "ACPI",
+            "Device": "LEN0068",
+            "ACPI Path": "\\_SB.PCI0.LPC_.EC__.HKEY"
+        },
+        "intel_rapl_msr": {
+            "Bus Type": "PLATFORM",
+            "Device": "intel_rapl_msr"
+        },
+        "Fixed MDIO bus": {
+            "Bus Type": "PLATFORM",
+            "Device": "Fixed MDIO bus"
+        },
+        "rtc-efi": {
+            "Bus Type": "PLATFORM",
+            "Device": "rtc-efi"
+        },
+        "PNP0C14_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMI2"
+        },
+        "thinkpad_acpi": {
+            "Bus Type": "PLATFORM",
+            "Device": "thinkpad_acpi"
+        },
+        "coretemp": {
+            "Bus Type": "PLATFORM",
+            "Device": "coretemp"
+        },
+        "LNXIOBAY": {
+            "Bus Type": "ACPI",
+            "Device": "LNXIOBAY",
+            "ACPI Path": "\\_SB.PCI0.SAT1.PRT5"
+        },
+        "regulatory": {
+            "Bus Type": "PLATFORM",
+            "Device": "regulatory"
+        },
+        "PNP0800": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0800",
+            "ACPI Path": "\\_SB.PCI0.LPC_.SPKR"
+        },
+        "PNP0C0E": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0E",
+            "ACPI Path": "\\_SB.SLPB"
+        },
+        "PNP0103": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPC_.HPET"
+        },
+        "PNP0C04": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C04",
+            "ACPI Path": "\\_SB.PCI0.LPC_.FPU_"
+        },
+        "efivars": {
+            "Bus Type": "PLATFORM",
+            "Device": "efivars"
+        },
+        "serial8250": {
+            "Bus Type": "PLATFORM",
+            "Device": "serial8250"
+        },
+        "i8042": {
+            "Bus Type": "PLATFORM",
+            "Device": "i8042"
+        },
+        "iTCO_wdt": {
+            "Bus Type": "PLATFORM",
+            "Device": "iTCO_wdt",
+            "ACPI Path": "\\_SB.PCI0.LPC_"
+        },
+        "PNP0C14_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMI3"
+        },
+        "pcspkr": {
+            "Bus Type": "PLATFORM",
+            "Device": "pcspkr"
+        },
+        "intel-spi": {
+            "Bus Type": "PLATFORM",
+            "Device": "intel-spi",
+            "ACPI Path": "\\_SB.PCI0.LPC_"
+        },
+        "Realtek Semiconductor Co., Ltd. RTS5227 PCI Express Card Reader": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-5227",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C10",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EXP1"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #2": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C12",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x1)",
+            "ACPI Path": "\\_SB.PCI0.EXP2"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #3": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C14",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)",
+            "ACPI Path": "\\_SB.PCI0.EXP3"
+        },
+        "Intel Corporation QM87 Express LPC Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C4F",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPC_"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C3A",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C20",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HDEF"
+        },
+        "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0C0C",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x3,0x0)",
+            "ACPI Path": "\\_SB.PCI0.B0D3"
+        },
+        "Intel Corporation Ethernet Connection I217-LM": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-153A",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x19,0x0)",
+            "ACPI Path": "\\_SB.PCI0.IGBE"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C22",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.SMBU"
+        },
+        "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0C04",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Intel Corporation 8 Series/C220 Series Chipset Family KT Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-8C3D",
+            "Subsystem ID": "221017AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x3)"
+        }
+    }
+}
